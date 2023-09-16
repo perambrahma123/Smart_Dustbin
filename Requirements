@@ -1,0 +1,20 @@
+Requirements 
+to make the project work
+
+1. **Ultrasonic Sensor HC-SR04:**
+   - The Ultrasonic sensor is used to detect the presence of a person near the smart dustbin. It works by emitting high-frequency sound waves and measuring the time it takes for these waves to bounce back after hitting an object.
+   - When a person approaches the dustbin, the sensor will detect their presence by measuring the time it takes for the sound waves to bounce back from them.
+
+2. **SG-90 Micro Servo Motor:**
+   - The SG-90 micro servo motor is responsible for opening the top of the dustbin when a person is detected by the Ultrasonic sensor.
+   - When the Arduino receives a signal from the Ultrasonic sensor indicating the presence of a person, it sends a control signal to the servo motor to rotate and lift the top of the dustbin.
+
+3. **Arduino UNO:**
+   - The Arduino UNO is the central control unit or "brain" of your project. It processes the data from the Ultrasonic sensor and controls the servo motor.
+   - You'll need to write a program (code) for the Arduino that defines how it should respond to sensor data. This code will include logic to activate the servo motor when a person is detected.
+
+4. **Dustbin:**
+   - The dustbin is the physical container for your project. It's where the waste is collected.
+   - The top of the dustbin is designed to open automatically when a person approaches, thanks to the servo motor's action, making it convenient for users to dispose of their trash.
+
+In summary, the Ultrasonic sensor detects human presence, the Arduino processes this information, and the servo motor opens the dustbin's top in response. Together, these components create a smart dustbin that automatically opens when someone approaches to dispose of trash.
